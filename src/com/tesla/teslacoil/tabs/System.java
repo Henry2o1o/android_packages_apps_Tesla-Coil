@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.dutweaks.tabs;
+package com.tesla.teslacoil.tabs;
 
 import android.app.ActivityManagerNative;
 import android.content.Context;
@@ -61,7 +61,7 @@ public class System extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.DIRTYTWEAKS;
+        return MetricsLogger.TESLACOIL;
     }
 
     @Override

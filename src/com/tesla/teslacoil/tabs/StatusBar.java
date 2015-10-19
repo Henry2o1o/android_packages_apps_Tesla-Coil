@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 The Dirty Unicorns project
+ * Copyright (C) 2014-2015 The Dirty Unicorns Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.dutweaks.tabs;
+package com.tesla.teslacoil.tabs;
 
 import android.app.ActivityManagerNative;
 import android.content.Context;
@@ -43,9 +43,9 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsLogger;
 import com.android.settings.Utils;
 
-public class Navigation extends SettingsPreferenceFragment implements
+public class StatusBar extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
-    private static final String TAG = "Navigation";
+    private static final String TAG = "StatusBar";
 
     private final Configuration mCurConfig = new Configuration();
 
@@ -53,7 +53,7 @@ public class Navigation extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.navigation);
+        addPreferencesFromResource(R.xml.statusbar);
         PreferenceScreen prefSet = getPreferenceScreen();
 
         ContentResolver resolver = getActivity().getContentResolver();
@@ -61,7 +61,7 @@ public class Navigation extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.DIRTYTWEAKS;
+        return MetricsLogger.TESLACOIL;
     }
 
     @Override

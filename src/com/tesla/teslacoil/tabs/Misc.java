@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.dutweaks.tabs;
+package com.tesla.teslacoil.tabs;
 
 import android.app.ActivityManagerNative;
 import android.content.Context;

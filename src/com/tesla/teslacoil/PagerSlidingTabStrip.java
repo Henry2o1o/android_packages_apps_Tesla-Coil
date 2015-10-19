@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.dutweaks;
+package com.tesla.teslacoil;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -160,8 +160,8 @@ public class PagerSlidingTabStrip extends HorizontalScrollView {
         TypedArray a = context.obtainStyledAttributes(attrs, ATTRS);
         tabTextSize = a.getDimensionPixelSize(TEXT_SIZE_INDEX, tabTextSize);
         ColorStateList colorStateList = a.getColorStateList(TEXT_COLOR_INDEX);
-        int textPrimaryColor = context.getResources().getColor(com.dirtyunicorns.dutweaks.R.color.material_deep_teal_500);
-        int tabTextColor = context.getResources().getColor(com.dirtyunicorns.dutweaks.R.color.material_deep_teal_500);
+        int textPrimaryColor = context.getResources().getColor(com.tesla.teslacoil.R.color.material_deep_teal_500);
+        int tabTextColor = context.getResources().getColor(com.tesla.teslacoil.R.color.material_deep_teal_500);
 
         underlineColor = textPrimaryColor;
         dividerColor = textPrimaryColor;

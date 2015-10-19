@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.dutweaks;
+package com.tesla.teslacoil;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -48,20 +48,20 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.android.internal.util.slim.DeviceUtils;
-import com.dirtyunicorns.dutweaks.tabs.GeneralUI;
-import com.dirtyunicorns.dutweaks.tabs.StatusBar;
-import com.dirtyunicorns.dutweaks.tabs.Navigation;
-import com.dirtyunicorns.dutweaks.tabs.MultiTasking;
-import com.dirtyunicorns.dutweaks.tabs.System;
-import com.dirtyunicorns.dutweaks.tabs.Misc;
-import com.dirtyunicorns.dutweaks.PagerSlidingTabStrip;
+import com.dirtyunicorns.teslacoil.tabs.GeneralUI;
+import com.dirtyunicorns.teslacoil.tabs.StatusBar;
+import com.dirtyunicorns.teslacoil.tabs.Navigation;
+import com.dirtyunicorns.teslacoil.tabs.MultiTasking;
+import com.dirtyunicorns.teslacoil.tabs.System;
+import com.dirtyunicorns.teslacoil.tabs.Misc;
+import com.dirtyunicorns.teslacoil.PagerSlidingTabStrip;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsLogger;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DirtyTweaks extends SettingsPreferenceFragment {
+public class TeslaCoil extends SettingsPreferenceFragment {
 
     private static final int MENU_HELP  = 0;
 
@@ -75,7 +75,7 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         mContainer = container;
 
-        View view = inflater.inflate(R.layout.dirtytweaks, container, false);
+        View view = inflater.inflate(R.layout.teslacoil, container, false);
         mViewPager = (ViewPager) view.findViewById(R.id.pager);
         mTabs = (PagerSlidingTabStrip) view.findViewById(R.id.tabs);
         StatusBarAdapter StatusBarAdapter = new StatusBarAdapter(getFragmentManager());
@@ -98,7 +98,7 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.DIRTYTWEAKS;
+        return MetricsLogger.TESLACOIL;
     }
 
     @Override
@@ -112,8 +112,8 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        menu.add(0, MENU_HELP, 0, R.string.dirtytweaks_dialog_title)
-                .setIcon(R.drawable.ic_dirtytweaks_info)
+        menu.add(0, MENU_HELP, 0, R.string.teslacoil_dialog_title)
+                .setIcon(R.drawable.ic_teslacoil_info)
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
     }
 
@@ -123,7 +123,7 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
             case MENU_HELP:
                 showDialogInner(MENU_HELP);
                 Toast.makeText(getActivity(),
-                (R.string.dirtytweaks_dialog_toast),
+                (R.string.teslacoil_dialog_toast),
                 Toast.LENGTH_LONG).show();
                 return true;
             default:
@@ -152,8 +152,8 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
             switch (id) {
                 case MENU_HELP:
                     return new AlertDialog.Builder(getActivity())
-                    .setTitle(R.string.dirtytweaks_dialog_title)
-                    .setMessage(R.string.dirtytweaks_dialog_message)
+                    .setTitle(R.string.teslacoil_dialog_title)
+                    .setMessage(R.string.teslacoil_dialog_message)
                     .setCancelable(false)
                     .setNegativeButton(R.string.dlg_ok,
                         new DialogInterface.OnClickListener() {

@@ -8,7 +8,7 @@
 #LOCAL_SRC_FILES := $(call all-java-files-under, src)
 #
 #LOCAL_PRIVILEGED_MODULE := true
-#LOCAL_PACKAGE_NAME := DU-Tweaks
+#LOCAL_PACKAGE_NAME := Tesla-Coil
 #
 #include $(BUILD_PACKAGE)
 ##################################################

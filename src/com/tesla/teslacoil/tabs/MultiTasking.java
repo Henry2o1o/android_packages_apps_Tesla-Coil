@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.dutweaks.tabs;
+package com.tesla.teslacoil.tabs;
 
 import android.app.ActivityManagerNative;
 import android.content.Context;
@@ -43,9 +43,9 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsLogger;
 import com.android.settings.Utils;
 
-public class StatusBar extends SettingsPreferenceFragment implements
+public class MultiTasking extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
-    private static final String TAG = "StatusBar";
+    private static final String TAG = "MultiTasking";
 
     private final Configuration mCurConfig = new Configuration();
 
@@ -53,7 +53,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.statusbar);
+        addPreferencesFromResource(R.xml.multitasking);
         PreferenceScreen prefSet = getPreferenceScreen();
 
         ContentResolver resolver = getActivity().getContentResolver();
@@ -61,7 +61,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.DIRTYTWEAKS;
+        return MetricsLogger.TESLACOIL;
     }
 
     @Override
