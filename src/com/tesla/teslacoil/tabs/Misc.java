@@ -61,7 +61,7 @@ public class Misc extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.DIRTYTWEAKS;
+        return MetricsLogger.TESLACOIL;
     }
 
     @Override
