@@ -27,7 +27,7 @@
 
     <!-- Dialog -->
     <string name="teslacoil_dialog_title">We want to help</string>
-    <string name="teslacoil_dialog_message">We aren't mindreaders if you find any bugs let up know in our community in the proper section.</string>
+    <string name="teslacoil_dialog_message">We aren\'t mindreaders if you find any bugs let up know in our community in the proper section.</string>
     <string name="teslacoil_dialog_toast">READ THE WHOLE THING!</string>
 
     <string name="systemuituner">System UI Tuner</string>
