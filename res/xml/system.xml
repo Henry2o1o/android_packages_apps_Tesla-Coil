@@ -21,5 +21,12 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+         <Preference
+            android:key="recents"
+            android:fragment="com.tesla.teslacoil.fragments.Recents"
+            android:layout="@layout/preference_recents"
+            android:title="@string/recents_category" />
+
+
 </PreferenceScreen>
 
