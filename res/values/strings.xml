@@ -25,15 +25,25 @@
     <string name="system_category">System</string>
     <string name="misc_category">Miscellaneous</string>
 
+    <!-- Categories -->
+    <string name="animations_category">Animations</string>
+    <string name="battery_category">Battery</string>
+    <string name="download_category">Download Center</string>
+    <string name="misctweaks_category">Custom </string>
+    <string name="powermenu_category">Power Menu</string>
+    <string name="quicksettings_category">Quick Settings</string>
+    <string name="recents_category">Recents</string>
+    <string name="statusbar_items_category">Statusbar Items</string>
+    <string name="statusbar_notifications_category">Notifications</string>
+    <string name="wakelockblocker_category">Wakelock Blocker</string>
+
     <!-- Dialog -->
     <string name="teslacoil_dialog_title">We want to help</string>
     <string name="teslacoil_dialog_message">We aren\'t mindreaders if you find any bugs let up know in our community in the proper section.</string>
     <string name="teslacoil_dialog_toast">READ THE WHOLE THING!</string>
 
     <string name="systemuituner">System UI Tuner</string>
-
     <!-- Power Menu -->
-    <string name="powermenu_category">Power Menu</string>
     <string name="powermenu_screenshot">Screenshot</string>
     <string name="powermenu_power">Power</string>
     <string name="powermenu_reboot">Reboot</string>
@@ -48,9 +58,5 @@
     <string name="advanced_reboot_disabled">Disable</string>
     <string name="advanced_reboot_hide_on_keyguard">Hide on lock screen</string>
     <string name="advanced_reboot_show_always">Show always</string>
-
-    <!-- SystemUI Tuner Parts -->
-    <string name="systemui_tuner_statusbar_title">Statusbar Items</string>
-    <string name="systemui_tuner_qs_title">Quick Settings</string>
 
 </resources>

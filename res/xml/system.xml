@@ -22,10 +22,19 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
          <Preference
+            android:key="animations"
+            android:fragment="com.tesla.teslacoil.fragments.Animations"
+            android:title="@string/animations_category" />
+
+         <Preference
             android:key="powermenu"
-            android:fragment="com.dirtyunicorns.dutweaks.fragments.PowerMenu"
-            android:layout="@layout/preference_powermenu"
+            android:fragment="com.tesla.teslacoil.fragments.PowerMenu"
             android:title="@string/powermenu_category" />
+
+         <Preference
+            android:key="recents"
+            android:fragment="com.tesla.teslacoil.fragments.Recents"
+            android:title="@string/recents_category" />
 
 </PreferenceScreen>
 
