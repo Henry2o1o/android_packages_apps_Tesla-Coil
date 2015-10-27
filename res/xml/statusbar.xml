@@ -21,6 +21,11 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+       <PreferenceScreen
+           android:key="clock_styles"
+           android:title="@string/clock_styles_title"
+           android:fragment="com.tesla.teslacoil.fragments.ClockStyles" />
+
          <Preference
             android:key="battery"
             android:fragment="com.tesla.teslacoil.fragments.Battery"
@@ -45,6 +50,11 @@
             android:key="statusbar_notifications"
             android:fragment="com.tesla.teslacoil.fragments.StatusbarNotifications"
             android:title="@string/statusbar_notifications_category" />
+
+       <PreferenceScreen
+           android:key="clock_styles"
+           android:title="@string/clock_styles_title"
+           android:fragment="com.tesla.teslacoil.fragments.ClockStyles" />
 
 </PreferenceScreen>
 
