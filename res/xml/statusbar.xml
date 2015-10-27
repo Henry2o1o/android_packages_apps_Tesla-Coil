@@ -41,5 +41,11 @@
                 android:targetClass="com.android.systemui.tuner.TunerActivity" />
          </PreferenceScreen>
 
+       <PreferenceScreen
+           android:key="clock_styles"
+           android:title="@string/clock_styles_title"
+           android:layout="@layout/preference_clockstyle"
+           android:fragment="com.tesla.teslacoil.fragments.ClockStyles" />
+
 </PreferenceScreen>
 
