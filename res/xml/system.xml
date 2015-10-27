@@ -36,5 +36,11 @@
             android:fragment="com.tesla.teslacoil.fragments.Recents"
             android:title="@string/recents_category" />
 
+         <Preference
+            android:key="wakelockblocker"
+            android:fragment="com.dirtyunicorns.dutweaks.fragments.WakelockBlocker"
+            android:layout="@layout/preference_wakelockblocker"
+            android:title="@string/wakelockblocker_category" />
+
 </PreferenceScreen>
 
