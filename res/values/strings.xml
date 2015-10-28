@@ -28,7 +28,6 @@
     <!-- Categories -->
     <string name="animations_category">Animations</string>
     <string name="battery_category">Battery</string>
-    <string name="download_category">Download Center</string>
     <string name="misctweaks_category">Custom </string>
     <string name="powermenu_category">Power Menu</string>
     <string name="quicksettings_category">Quick Settings</string>
@@ -47,6 +46,14 @@
     <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
 
     <string name="systemuituner">System UI Tuner</string>
+
+    <!-- Status bar quick qs pulldown -->
+    <string name="title_quick_pulldown">Quick pulldown</string>
+    <string name="summary_quick_pulldown">%1$s edge of the status bar pulls down Quick Settings</string>
+    <string name="quick_pulldown_off">Off</string>
+    <string name="quick_pulldown_left">Left</string>
+    <string name="quick_pulldown_right">Right</string>
+
     <!-- Power Menu -->
     <string name="powermenu_screenshot">Screenshot</string>
     <string name="powermenu_power">Power</string>
