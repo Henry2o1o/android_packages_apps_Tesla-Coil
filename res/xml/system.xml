@@ -27,6 +27,11 @@
             android:title="@string/animations_category" />
 
          <Preference
+            android:key="expanded_desktop"
+            android:fragment="com.tesla.teslacoil.fragments.ExpandedDesktop"
+            android:title="@string/expanded_desktop_category" />
+
+         <Preference
             android:key="powermenu"
             android:fragment="com.tesla.teslacoil.fragments.PowerMenu"
             android:title="@string/powermenu_category" />
