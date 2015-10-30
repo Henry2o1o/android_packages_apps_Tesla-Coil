@@ -39,6 +39,8 @@ import android.provider.Settings.SettingNotFoundException;
 import android.util.Log;
 import android.widget.EditText;
 
+import com.android.internal.logging.MetricsLogger;
+
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
@@ -58,6 +60,11 @@ public class CarrierLabel extends SettingsPreferenceFragment implements OnPrefer
 
     private String mCustomCarrierLabelText;
     private ColorPickerPreference mCarrierColorPicker;
+
+    @Override
+    protected int getMetricsCategory() {
+        return MetricsLogger.TESLACOIL;
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
