@@ -56,5 +56,10 @@
            android:title="@string/clock_styles_title"
            android:fragment="com.tesla.teslacoil.fragments.ClockStyles" />
 
+    <PreferenceScreen
+        android:key="carrier_options"
+        android:fragment="com.tesla.teslacoil.fragments.CarrierLabel"
+        android:title="@string/carrier_options" />
+
 </PreferenceScreen>
 
