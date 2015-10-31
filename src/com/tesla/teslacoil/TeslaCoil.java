@@ -47,7 +47,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.android.internal.util.slim.DeviceUtils;
+import com.android.internal.util.tesla.DeviceUtils;
 import com.tesla.teslacoil.tabs.GeneralUI;
 import com.tesla.teslacoil.tabs.StatusBar;
 import com.tesla.teslacoil.tabs.Navigation;
