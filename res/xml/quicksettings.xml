@@ -33,7 +33,7 @@
            android:targetClass="com.android.systemui.tuner.QsActivity" />
     </PreferenceScreen>
 
-    <com.dirtyunicorns.dutweaks.preference.SystemSettingSwitchPreference
+    <com.tesla.teslacoil.preference.SystemSettingSwitchPreference
         android:key="qs_show_brightness_slider"
         android:title="@string/qs_brightness_slider_title"
         android:summary="@string/qs_brightness_slider_summary"
