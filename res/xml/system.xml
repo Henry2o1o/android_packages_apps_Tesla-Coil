@@ -38,8 +38,7 @@
 
          <Preference
             android:key="wakelockblocker"
-            android:fragment="com.dirtyunicorns.dutweaks.fragments.WakelockBlocker"
-            android:layout="@layout/preference_wakelockblocker"
+            android:fragment="com.tesla.teslacoil.fragments.WakelockBlocker"
             android:title="@string/wakelockblocker_category" />
 
 </PreferenceScreen>
