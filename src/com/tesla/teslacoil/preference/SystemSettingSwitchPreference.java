@@ -67,9 +67,4 @@ public class SystemSettingSwitchPreference extends SwitchPreference {
         return Settings.System.getString(getContext().getContentResolver(), getKey()) != null;
     }
 
-    @Override
-    protected void onClick() {
-        // Do nothing
-        //super.onClick();
-    }
 }
