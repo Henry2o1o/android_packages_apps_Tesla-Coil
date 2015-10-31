@@ -29,6 +29,7 @@
     <string name="multitasking_category">Multi-Tasking</string>
     <string name="system_category">System</string>
     <string name="misc_category">Miscellaneous</string>
+    <string name="lockscreen_category">Lockscreen</string>
 
     <!-- Categories -->
     <string name="animations_category">Animations</string>
@@ -181,5 +182,11 @@
     <string name="recents_clear_all_location_bottom_center">Bottom center</string>
     <string name="recents_show_membar_title">Memory bar</string>
     <string name="recents_show_membar_summary">Show a bar with the device\'s available memory</string>
+
+    <!-- Lock screen settings -->
+    <string name="lockscreen_settings_title">Lockscreen wallpaper</string>
+    <string name="lockscreen_wallpaper_title">Wallpaper</string>
+    <string name="lockscreen_wallpaper_set_title">Set lock screen wallpaper</string>
+    <string name="lockscreen_wallpaper_clear_title">Clear lock screen wallpaper</string>
 
 </resources>
