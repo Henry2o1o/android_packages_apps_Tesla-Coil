@@ -23,8 +23,7 @@
 
          <PreferenceScreen
             android:key="systemui_tuner_qs"
-            android:title="@string/systemui_tuner_qs_title"
-            android:layout="@layout/preference_systemui_tuner_qs" >
+            android:title="@string/systemui_tuner_qs_title" >
             <intent
                 android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.systemui"
@@ -33,8 +32,7 @@
 
          <PreferenceScreen
             android:key="systemui_tuner_statusbar"
-            android:title="@string/systemui_tuner_statusbar_title"
-            android:layout="@layout/preference_systemui_tuner_statusbaritems" >
+            android:title="@string/systemui_tuner_statusbar_title">
             <intent
                 android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.systemui"
@@ -44,7 +42,6 @@
        <PreferenceScreen
            android:key="clock_styles"
            android:title="@string/clock_styles_title"
-           android:layout="@layout/preference_clockstyle"
            android:fragment="com.tesla.teslacoil.fragments.ClockStyles" />
 
     <PreferenceScreen

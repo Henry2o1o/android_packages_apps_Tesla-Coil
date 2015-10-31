@@ -24,13 +24,11 @@
          <Preference
             android:key="recents"
             android:fragment="com.tesla.teslacoil.fragments.Recents"
-            android:layout="@layout/preference_recents"
             android:title="@string/recents_category" />
 
          <Preference
             android:key="powermenu"
             android:fragment="com.tesla.teslacoil.fragments.PowerMenu"
-            android:layout="@layout/preference_powermenu"
             android:title="@string/powermenu_category" />
 
 </PreferenceScreen>
