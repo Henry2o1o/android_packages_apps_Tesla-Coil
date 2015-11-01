@@ -17,12 +17,11 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/recents_category" >
 
-         <com.tesla.teslacoil.preference.SystemSettingSwitchPreference
-            android:key="recents_show_hide_search_bar"
-            android:title="@string/recents_show_searchbar"
-            android:summary="@string/recents_show_searchbar_summary"
-            settings:keywords="@string/keywords_recents_show_searchbar"
-            android:defaultValue="false" />
+         <com.tesla.teslacoil.preference.SystemSettingSwitchPreference 
+            android:key="recents_search_bar"
+            android:title="@string/recents_searchbar_title"
+            android:summary="@string/recents_searchbar_summary"
+            android:defaultValue="true" />
 
          <com.tesla.teslacoil.preference.SystemSettingSwitchPreference
             android:key="systemui_recents_mem_display"
@@ -41,7 +40,7 @@
             android:title="@string/recents_clear_all_location_title"
             android:entries="@array/recents_clear_all_location_entries"
             android:entryValues="@array/recents_clear_all_location_values"
-            android:defaultValue="4"
+            android:defaultValue="3"
             android:dependency="show_clear_all_recents" />
 
 </PreferenceScreen>
