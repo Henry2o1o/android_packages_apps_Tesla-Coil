@@ -33,7 +33,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsLogger;
 
-public class RecentsSettings extends SettingsPreferenceFragment
+public class Recents extends SettingsPreferenceFragment
             implements OnPreferenceChangeListener  {
 
 
