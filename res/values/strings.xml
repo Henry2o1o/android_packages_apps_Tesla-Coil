@@ -166,10 +166,8 @@
 
     <!-- Show/Hide Search Bar -->
     <string name="recents_category">Recents</string>
-    <string name="recents_show_searchbar">Disable Search Bar in Recents</string>
-    <string name="recents_show_searchbar_summary">Disable or enable the Google search bar in the recents menu</string>
-    <string name="keywords_recents_show_searchbar">recent recents disable search bar searchbar hide</string>
-
+    <string name="recents_searchbar_title">Search bar</string>
+    <string name="recents_searchbar_summary">Show Google search bar in the recents screen</string>
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Clear All Recents Button</string>
     <string name="show_clear_all_recents_button_summary">Show clear all button on recents panel</string>
