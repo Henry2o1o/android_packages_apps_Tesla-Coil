@@ -30,6 +30,7 @@
     <string name="system_category">System</string>
     <string name="misc_category">Miscellaneous</string>
     <string name="lockscreen_category">Lockscreen</string>
+    <string name="lmt_settings">PIE Settings</string>
 
     <!-- Categories -->
     <string name="animations_category">Animations</string>
