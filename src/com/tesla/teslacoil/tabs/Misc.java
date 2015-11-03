@@ -59,6 +59,11 @@ public class Misc extends PreferenceFragment implements
     private ListPreference mLcdDensityPreference;
 
     @Override
+    protected int getMetricsCategory() {
+        return MetricsLogger.TESLACOIL;
+    }
+
+    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.misc);
@@ -166,11 +171,6 @@ public class Misc extends PreferenceFragment implements
             }
         };
         task.execute();
-    }
-
-    @Override
-    protected int getMetricsCategory() {
-        return MetricsLogger.TESLACOIL;
     }
 
      @Override
