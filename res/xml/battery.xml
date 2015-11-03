@@ -22,7 +22,6 @@
         android:key="battery_style_pref"
         android:title="@string/battery_title"
     	android:summary="@string/battery2_summary" />
-    </PreferenceCategory>
 
 </PreferenceScreen>
 
