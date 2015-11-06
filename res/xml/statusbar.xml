@@ -50,11 +50,6 @@
             android:fragment="com.tesla.teslacoil.fragments.StatusbarNotifications"
             android:title="@string/statusbar_notifications_category" />
 
-       <PreferenceScreen
-           android:key="clock_styles"
-           android:title="@string/clock_styles_title"
-           android:fragment="com.tesla.teslacoil.fragments.ClockStyles" />
-
     <PreferenceScreen
         android:key="carrier_options"
         android:fragment="com.tesla.teslacoil.fragments.CarrierLabel"

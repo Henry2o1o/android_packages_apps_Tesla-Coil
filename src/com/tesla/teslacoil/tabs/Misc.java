@@ -41,6 +41,8 @@ import android.view.WindowManagerGlobal;
 import android.view.WindowManagerImpl;
 import android.widget.Toast;
 
+import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.R;
 import com.android.internal.logging.MetricsLogger;
 
 import android.util.DisplayMetrics;
@@ -164,11 +166,6 @@ public class Misc extends PreferenceFragment implements
             }
         };
         task.execute();
-    }
-
-    @Override
-    protected int getMetricsCategory() {
-        return MetricsLogger.TESLACOIL;
     }
 
      @Override
