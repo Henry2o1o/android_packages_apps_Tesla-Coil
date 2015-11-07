@@ -21,6 +21,7 @@
     <string name="ok">Okay</string>
     <string name="reset">Reset</string>
     <string name="default_string">Default</string>
+    <string name="positive_done">Done</string>
 
     <!-- Tabs -->
     <string name="generalui_category">General UI</string>
