@@ -26,5 +26,11 @@
             android:fragment="com.tesla.teslacoil.fragments.MiscTweaks"
             android:title="@string/misctweaks_category" />
 
+         <PreferenceScreen
+            android:key="lock_screen_general_category"
+            android:fragment="com.tesla.teslacoil.fragments.LockScreenSettings"
+            android:title="@string/lockscreen_category" 
+            />
+
 </PreferenceScreen>
 
