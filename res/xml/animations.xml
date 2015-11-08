@@ -17,4 +17,9 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/animations_category" >
 
+    <PreferenceScreen
+        android:key="aokp_animation"
+        android:title="@string/system_animation_title"
+        android:fragment="com.tesla.teslacoil.fragments.animation.AnimationControls" />
+
 </PreferenceScreen>
