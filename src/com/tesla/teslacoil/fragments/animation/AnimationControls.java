@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.tesla.teslacoil.fragments.animatioN;
+package com.tesla.teslacoil.fragments.animation;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -29,7 +29,7 @@ import android.preference.SwitchPreference;
 import android.provider.Settings;
 
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.benzo.animation.AnimBarPreference;
+import com.tesla.teslacoil.fragments.animation.AnimBarPreference;
 import com.android.settings.R;
 
 import com.android.internal.logging.MetricsLogger;
