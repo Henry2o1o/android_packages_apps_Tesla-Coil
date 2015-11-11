@@ -14,10 +14,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-   <PreferenceCategory
-        android:key="lockscreen_shortcut"
-        android:title="@string/lockscreen_shortcut_title" >
-
         <PreferenceScreen
             android:title="@string/lockscreen_targets_message" >
             <intent
@@ -25,35 +21,18 @@
                 android:targetClass="com.android.systemui.cm.LockscreenShortcutsActivity" />
         </PreferenceScreen>
 
-   </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="lockscreen_wallpaper"
-        android:title="@string/lockscreen_wallpaper_title" >
-
-        <Preference
-            android:key="lockscreen_wallpaper_set"
-            android:title="@string/lockscreen_wallpaper_set_title"
-            android:persistent="false"/>
-
-        <Preference
-            android:key="lockscreen_wallpaper_clear"
-            android:title="@string/lockscreen_wallpaper_clear_title"
-            android:persistent="false"/>
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="lockscreen_weather_cat"
-        android:title="@string/lockscreen_weather_title" >
+        <PreferenceScreen
+            android:key="lockscreen_wallpaper"
+            android:title="@string/lockscreen_wallpaper_title"
+            android:layout="@layout/preference_lockscreenwp"
+            android:fragment="com.tesla.teslacoil.fragments.LockscreenWallpaper" />
 
         <PreferenceScreen
                 android:key="lockscreen_weather"
                 android:title="@string/lock_screen_weather_settings_title"
                 android:fragment="com.tesla.teslacoil.fragments.LockScreenWeatherSettings" />
 
-        <!-- Weather Settings -->
-       <Preference
+       <!-- <Preference
            android:id="@+id/weather_settings"
            android:title="@string/weather_settings_title" >
            <intent
@@ -63,8 +42,6 @@
                <extra android:name=":android:show_fragment"
                    android:value="com.cyanogenmod.lockclock.preference.WeatherPreferences" />
            </intent>
-       </Preference>
-
-    </PreferenceCategory>
+       </Preference> -->
 
 </PreferenceScreen>

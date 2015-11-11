@@ -30,7 +30,7 @@ import android.preference.PreferenceScreen;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class LockScreenSettings extends SettingsPreferenceFragment {
+public class LockscreenWallpaper extends SettingsPreferenceFragment {
     public static final int IMAGE_PICK = 1;
 
     private static final String KEY_WALLPAPER_SET = "lockscreen_wallpaper_set";
@@ -42,7 +42,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.lockscreen);
+        addPreferencesFromResource(R.xml.lockscreen_wallpaper);
 
         mSetWallpaper = (Preference) findPreference(KEY_WALLPAPER_SET);
         mClearWallpaper = (Preference) findPreference(KEY_WALLPAPER_CLEAR);
