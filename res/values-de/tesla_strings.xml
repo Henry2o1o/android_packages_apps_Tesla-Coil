@@ -269,4 +269,40 @@
     <string name="listview_anticipate_overshoot_interpolator">Antizipieren und Überschwingen</string>
     <string name="listview_bounce_interpolator">springen</string>
 
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Netzwerkverkehr</string>
+    <string name="show_network_traffic_state">Statusleiste Traffic Monitor</string>
+    <string name="show_network_traffic_unit">Anzeigeeinheit</string>
+    <string name="show_network_traffic_frequency">Update Interval</string>
+    <string name="show_network_traffic_disable">deaktiviert</string>
+    <string name="show_network_traffic_up">Ausgehend</string>
+    <string name="show_network_traffic_down">Ankommend</string>
+    <string name="show_network_traffic_all">Ausgehend und Ankommend</string>
+    <string name="show_network_traffic_bit">Bits pro Sekunde</string>
+    <string name="show_network_traffic_byte">Bytes pro Sekunde</string>
+    <string name="network_traffic_autohide">Automatisch im Hintergrund</string>
+    <string name="network_traffic_autohide_summary">Ausblenden des Traffic Monitor, wenn es keine Aktivität gibt</string>
+    <string name="network_traffic_autohide_threshold">Inaktivitätsschwelle</string>
+
+    <!-- CM Lockscreen shortcuts -->
+    <string name="lockscreen_targets_message">Bottom Verknüpfungen</string>
+    <string name="lockscreen_shortcut_title">Verknüpfungen</string>
+
+    <!-- Nav bar customization -->
+    <string name="navigation_bar_buttons">Button &amp; Layout</string>
+    <string name="navigation_bar_settings_summary">Bearbeiten und neu ordnen der Navigationsleisten -Schaltflächen</string>
+    <string name="navigation_bar_help_text">Tippen Sie auf das Bearbeitungssymbol, um die Navigationsleiste zur Bearbeitung freizuschalten.\n\nSie können ein Symbol tippen, um das Kontext ändern oder langes Drücken auf ein Symbol, um es neu zu ordnen.\n\nTippen Sie auf Speichern, um Ihre Änderungen zu übernehmen, oder Wiederherstellung, um das Layout auf die Standardeinstellungen zurückzusetzen.</string>
+    <string name="navigation_restore_button_text">Restore\nStandard</string>
+    <string name="navigation_edit_button_text">Bearbeiten</string>
+    <string name="navigation_save_button_text">Sichern</string>
+    <string name="navigation_bar_reset_message">Löschen Sie die aktuellen Einstellungen und Wiederherstellung des Standard-Layout?</string>
+
+    <!-- Navigation bar cursor -->
+    <string name="navigation_bar_arrow_keys_title">Anzeigen der Pfeiltasten, während Sie tippen</string>
+    <string name="navigation_bar_arrow_keys_summary">Display links und rechts Pfeiltasten, während Sie tippen. Überschreibt IME Switcher.</string>
+
+    <!-- Kill app long-press back -->
+    <string name="kill_app_longpress_back">Kill App back Button</string>
+    <string name="kill_app_longpress_back_summary">Beendet die Vordergrund App durch langes Drücken der Zurück-Taste</string>
+
 </resources>
