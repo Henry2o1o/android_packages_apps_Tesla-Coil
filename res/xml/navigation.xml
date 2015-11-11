@@ -21,16 +21,22 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceScreen
-        android:key="navigation_bar"
-        android:fragment="com.tesla.teslacoil.fragments.NavBar"
-        android:summary="@string/navigation_bar_settings_summary"
-        android:title="@string/navigation_bar_buttons" />
+        <PreferenceScreen
+            android:key="navigation_bar"
+            android:fragment="com.tesla.teslacoil.fragments.NavBar"
+            android:summary="@string/navigation_bar_settings_summary"
+            android:title="@string/navigation_bar_buttons" />
 
         <com.tesla.teslacoil.preference.SystemSettingSwitchPreference
             android:key="navigation_bar_menu_arrow_keys"
             android:title="@string/navigation_bar_arrow_keys_title"
             android:summary="@string/navigation_bar_arrow_keys_summary"
+            android:defaultValue="false" />
+
+       <com.tesla.teslacoil.preference.SecureSettingSwitchPreference
+            android:key="kill_app_longpress_back"
+            android:title="@string/kill_app_longpress_back"
+            android:summary="@string/kill_app_longpress_back_summary"
             android:defaultValue="false" />
 
     <PreferenceCategory
