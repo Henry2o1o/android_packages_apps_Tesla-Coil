@@ -21,5 +21,11 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+         <PreferenceScreen
+            android:key="lock_screen_general_category"
+            android:fragment="com.tesla.teslacoil.fragments.LockScreenSettings"
+            android:title="@string/lockscreen_category" 
+            />
+
 </PreferenceScreen>
 
