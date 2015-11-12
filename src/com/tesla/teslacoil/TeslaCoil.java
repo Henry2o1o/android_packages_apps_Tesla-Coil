@@ -51,6 +51,7 @@ import com.android.internal.util.tesla.DeviceUtils;
 import com.tesla.teslacoil.tabs.GeneralUI;
 import com.tesla.teslacoil.tabs.StatusBar;
 import com.tesla.teslacoil.tabs.Navigation;
+import com.tesla.teslacoil.tabs.Lockscreen;
 import com.tesla.teslacoil.tabs.MultiTasking;
 import com.tesla.teslacoil.tabs.System;
 import com.tesla.teslacoil.tabs.Misc;
@@ -180,6 +181,7 @@ public class TeslaCoil extends SettingsPreferenceFragment {
             frags[0] = new GeneralUI();
             frags[1] = new StatusBar();
             frags[2] = new Navigation();
+            frags[2] = new Lockscreen();
             frags[3] = new MultiTasking();
             frags[4] = new System();
             frags[5] = new Misc();
@@ -207,6 +209,7 @@ public class TeslaCoil extends SettingsPreferenceFragment {
         titleString = new String[]{
                     getString(R.string.generalui_category),
                     getString(R.string.statusbar_category),
+                    getString(R.string.lockscreen_category),
                     getString(R.string.navigation_category),
                     getString(R.string.multitasking_category),
                     getString(R.string.system_category),
@@ -215,6 +218,7 @@ public class TeslaCoil extends SettingsPreferenceFragment {
         titleString = new String[]{
                     getString(R.string.generalui_category),
                     getString(R.string.statusbar_category),
+                    getString(R.string.lockscreen_category),
                     getString(R.string.navigation_category),
                     getString(R.string.multitasking_category),
                     getString(R.string.system_category),

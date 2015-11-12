@@ -38,12 +38,14 @@
     <string name="battery_category">Battery</string>
     <string name="misctweaks_category">Custom </string>
     <string name="expanded_desktop_category">Expanded Desktop</string>
+    <string name="lockscreen_category">Lockscreen</string>
     <string name="misctweaks_category">Misc. Tweaks</string>
     <string name="powermenu_category">Power Menu</string>
     <string name="quicksettings_category">Quick Settings</string>
     <string name="recents_category">Recents</string>
     <string name="statusbar_items_category">Statusbar Items</string>
     <string name="statusbar_notifications_category">Notifications</string>
+    <string name="navigation_bar_options">Extended options</string>
     <string name="wakelockblocker_category">Wakelock Blocker</string>
 
     <!-- Dialog -->
