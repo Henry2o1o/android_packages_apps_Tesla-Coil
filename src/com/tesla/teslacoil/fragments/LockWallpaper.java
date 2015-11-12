@@ -17,8 +17,6 @@
  */
 package com.tesla.teslacoil.fragments;
 
-import com.android.internal.logging.MetricsLogger;
-
 import android.app.Activity;
 import android.app.WallpaperManager;
 import android.content.Intent;
@@ -30,7 +28,9 @@ import android.preference.PreferenceScreen;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class LockscreenWallpaper extends SettingsPreferenceFragment {
+import com.android.internal.logging.MetricsLogger;
+
+public class LockWallpaper extends SettingsPreferenceFragment {
     public static final int IMAGE_PICK = 1;
 
     private static final String KEY_WALLPAPER_SET = "lockscreen_wallpaper_set";
