@@ -48,6 +48,11 @@
     <string name="navigation_bar_options">Extended options</string>
     <string name="wakelockblocker_category">Wakelock Blocker</string>
 
+    <string name="geatures_category">Gestures</string>
+    <string name="listview_animations_category">List View Animations</string>
+    <string name="system_animations_category">System Animations</string>
+    <string name="omniswitch_category">OmniSwitch</string>
+
     <!-- Dialog -->
     <string name="teslacoil_dialog_title">We want to help</string>
     <string name="teslacoil_dialog_message">We aren\'t mindreaders if you find any bugs let up know in our community in the proper section.</string>
@@ -372,5 +377,9 @@
     <!-- Kill app long-press back -->
     <string name="kill_app_longpress_back">Kill app back button</string>
     <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back button</string>
+
+    <!--Time Contexual Header -->
+    <string name="status_bar_custom_header_title">Time Contextual Header</string>
+    <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
 
 </resources>
