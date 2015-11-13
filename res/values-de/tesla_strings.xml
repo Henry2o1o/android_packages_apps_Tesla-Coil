@@ -31,6 +31,10 @@
     <string name="misctweaks_category">Benutzer </string>
     <string name="statusbar_notifications_category">Benachrichtigungen</string>
 
+    <string name="geatures_category">Gesten</string>
+    <string name="listview_animations_category">Listenansicht Animation</string>
+    <string name="system_animations_category">System Animationen</string>
+
     <!-- Toast Icons -->
     <string name="toast_icon_title">Toast Icon</string>
     <string name="toast_icon_summary">Appsymbol in der Toastanimation anzeigen</string>
