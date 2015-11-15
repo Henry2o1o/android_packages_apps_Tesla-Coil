@@ -180,11 +180,11 @@ public class TeslaCoil extends SettingsPreferenceFragment {
             super(fm);
             frags[0] = new GeneralUI();
             frags[1] = new StatusBar();
-            frags[2] = new Navigation();
             frags[2] = new Lockscreen();
-            frags[3] = new MultiTasking();
-            frags[4] = new System();
-            frags[5] = new Misc();
+            frags[3] = new Navigation();
+            frags[4] = new MultiTasking();
+            frags[5] = new System();
+            frags[6] = new Misc();
         }
 
         @Override
