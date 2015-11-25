@@ -51,6 +51,12 @@
                 android:targetClass="com.android.systemui.tuner.TunerActivity" />
          </PreferenceScreen>
 
+       <PreferenceScreen
+           android:key="breathing_notifications"
+           android:fragment="com.tesla.teslacoil.fragments.BreathingNotifications"
+           android:title="@string/breathing_notifications_title" 
+           android:summary="@string/breathing_notifications_summary" />
+
          <Preference
             android:key="statusbar_notifications"
             android:fragment="com.tesla.teslacoil.fragments.StatusbarNotifications"
