@@ -309,4 +309,21 @@
     <string name="kill_app_longpress_back">Kill App back Button</string>
     <string name="kill_app_longpress_back_summary">Beendet die Vordergrund App durch langes Drücken der Zurück-Taste</string>
 
+    <!-- OmniSwitch -->
+    <string name="recents_use_omniswitch_title">Für Recents benutzen</string>
+    <string name="recents_use_omniswitch_summary">Verwenden OmniSwitch statt Standard Recents</string>
+    <string name="omniswitch_start_settings_title">Einstellungen</string>
+    <string name="omniswitch_start_settings_summary">OmniSwitch Einstellungen öffnen</string>
+    <string name="omniswitch_first_time_title">Informationen</string>
+    <string name="omniswitch_first_time_message">Stelle sicher das OmniSwitch (unter Einstellungen) aktiviert ist.</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">bei berühren vibrieren</string>
+    <string name="quick_settings_vibrate_summary">beim berühren der Kacheln vibrieren</string>
+
+    <!-- Status bar brightness control -->
+    <string name="status_bar_brightness_control_title">Helligkeitsregler</string>
+    <string name="status_bar_brightness_control_summary">Helligkeit durch schieben über die Statusleiste einstellen</string>
+    <string name="status_bar_brightness_control_info">Automatische Helligkeits muss deaktiviert sein</string>
+
 </resources>
