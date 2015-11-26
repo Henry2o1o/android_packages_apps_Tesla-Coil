@@ -16,22 +16,32 @@
 
 package com.tesla.teslacoil.fragments;
 
+import android.app.Service;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.preference.PreferenceManager;
+import android.os.IBinder;
 
-public class IntentReceiver extends BroadcastReceiver {
+public class AdBlocker_CheckHosts extends Service {
 
-    private static final String TAG = "HFMBootReceiver";
+    private static final String TAG = "AdBlocker_CheckHosts";
 
-    public static final String ACTION_RUN_BOOTCOMPLETE = "android.intent.action.BOOT_COMPLETED";
+    public static final String DISABLE_ADS = "disable_ads";
+
+    private Context mContext;
 
     @Override
-    public void onReceive(Context context, Intent intent) {
-        Intent serv = new Intent(context, CheckHosts.class);
-        serv.setAction(intent.getAction());
-        serv.putExtras(intent);
-        context.startService(serv);
+    public IBinder onBind(Intent intent) {
+        return null;
+    }
+
+    @Override
+    public void onCreate() {
+        mContext = this;
+    }
+
+    @Override
+    public void onStart(Intent intent, int startId) {
+        AdBlocker_Helpers.checkStatus(mContext);
     }
 }

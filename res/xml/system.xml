@@ -47,9 +47,9 @@
             android:title="@string/wakelockblocker_category" />
 
          <PreferenceScreen
-            android:key="hfm_settings"
-            android:title="@string/hfm_pref_screen_title"
-            android:fragment="com.tesla.teslacoil.fragments.HfmSettings" />
+            android:key="adblocker"
+            android:title="@string/adblocker_title"
+            android:fragment="com.tesla.teslacoil.fragments.AdBlocker_Settings" />
 
 </PreferenceScreen>
 

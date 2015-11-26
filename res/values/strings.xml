@@ -224,16 +224,10 @@
     <string name="lcd_density_default_value_format">%d DPI (default)</string>
     <string name="restarting_ui">Restarting UI\u2026</string>
 
-    <!-- HFM Settings -->
-    <string name="hfm_disable_ads_title">Disable Ads</string>
-    <string name="hfm_disable_ads_summary">Change hosts file to disable ads</string>
-    <string name="hfm_pref_screen_title">Ad blocker</string>
-    <string name="hfm_update_hosts">Update hosts file</string>
-    <string name="hfm_update_hosts_summary">Download and apply fresh hosts</string>
-    <string name="hfm_dialog_wait">Working, please wait....</string>
-    <string name="hfm_dialog_failed">Updating hosts file failed. Please try again.</string>
-    <string name="hfm_dialog_success">/4 hosts sources successfully applied!</string>
-    <string name="hfm_dialog_conn_error">Error: No network connectivity</string>
+    <!-- Ad Blocker -->
+    <string name="adblocker_title">Ad blocker</string>
+    <string name="disable_ads_title">Disable Ads</string>
+    <string name="disable_ads_summary">Change hosts file to disable ads</string>
 
     <!-- Navigation bar -->
     <string name="navigation_bar_category">Navigation bar</string>
