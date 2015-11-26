@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tesla.teslacoil.fragments.animation;
+package com.tesla.teslacoil.fragments;
 
 import android.content.Context;
 import android.content.res.TypedArray;
