@@ -409,4 +409,9 @@
     <string name="voicemail_breath_title">Breathing Voicemail</string>
     <string name="voicemail_breath_summary">Will give your voicemail notifications a breathing effect in the statusbar</string>
 
+    <!-- Statusbar Tesla logo -->
+    <string name="status_bar_tesla_logo_title">Tesla logo</string>
+    <string name="status_bar_tesla_logo_summary">Enable to show Tesla logo on the left side of statusbar</string>
+    <string name="status_bar_tesla_logo_color">Tesla logo color</string>
+
 </resources>

@@ -26,6 +26,11 @@
            android:title="@string/clock_styles_title"
            android:fragment="com.tesla.teslacoil.fragments.ClockStyles" />
 
+          <Preference
+            android:key="tesla_logo"
+            android:fragment="com.tesla.teslacoil.fragments.TeslaLogo"
+            android:title="@string/status_bar_tesla_logo_title" />
+
         <com.tesla.teslacoil.preference.SystemSettingSwitchPreference
             android:key="status_bar_custom_header"
             android:title="@string/status_bar_custom_header_title"
