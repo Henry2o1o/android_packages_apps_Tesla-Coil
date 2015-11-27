@@ -30,7 +30,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.MetricsLogger;
 
-public class LockWallpaper extends SettingsPreferenceFragment {
+public class LockScreenWallpaper extends SettingsPreferenceFragment {
     public static final int IMAGE_PICK = 1;
 
     private static final String KEY_WALLPAPER_SET = "lockscreen_wallpaper_set";

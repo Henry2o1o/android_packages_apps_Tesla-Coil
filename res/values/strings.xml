@@ -248,7 +248,7 @@
 
     <!--Weather Settings -->
     <!-- Weather in status bar -->
-    <string name="weather_settings_title">Weather</string>
+    <string name="weather_settings_title">lockClock</string>
     <string name="status_bar_show_weather_title">Show weather</string>
     <string name="status_bar_show_weather_summary">Show the weather in the status bar header</string>
     <!-- Lockscreen weather -->
