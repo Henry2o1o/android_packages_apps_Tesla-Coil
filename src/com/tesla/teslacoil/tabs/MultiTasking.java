@@ -47,11 +47,6 @@ public class MultiTasking extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "MultiTasking";
 
-    private static final String KEY_OMNISWITCH = "omniswitch";
-    private static final String KEY_OMNI_SWITCH_PACKAGE_NAME = "org.omnirom.omniswitch";
-
-    private PreferenceScreen mOmniSwitch;
-
     private final Configuration mCurConfig = new Configuration();
 
     @Override
@@ -60,11 +55,6 @@ public class MultiTasking extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.multitasking);
         PreferenceScreen prefSet = getPreferenceScreen();
-
-        mOmniSwitch = (PreferenceScreen) findPreference(KEY_OMNISWITCH);
-        if (!Utils.isPackageInstalled(getActivity(), KEY_OMNI_SWITCH_PACKAGE_NAME)) {
-            prefSet.removePreference(mOmniSwitch);
-        }
 
         ContentResolver resolver = getActivity().getContentResolver();
     }

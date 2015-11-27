@@ -21,7 +21,6 @@
     <string name="ok">Okay</string>
     <string name="reset">Reset</string>
     <string name="default_string">Default</string>
-    <string name="positive_done">Done</string>
 
     <!-- Tabs -->
     <string name="generalui_category">General UI</string>
@@ -249,7 +248,7 @@
 
     <!--Weather Settings -->
     <!-- Weather in status bar -->
-    <string name="weather_settings_title">Weather</string>
+    <string name="weather_settings_title">lockClock</string>
     <string name="status_bar_show_weather_title">Show weather</string>
     <string name="status_bar_show_weather_summary">Show the weather in the status bar header</string>
     <!-- Lockscreen weather -->
@@ -333,6 +332,7 @@
     <string name="listview_bounce_interpolator">Bounce</string>
 
     <!-- Network traffic -->
+    <string name="traffic_category">Traffic Indicators</string>
     <string name="network_traffic_title">Network traffic</string>
     <string name="show_network_traffic_state">Status bar traffic monitor</string>
     <string name="show_network_traffic_unit">Display unit</string>
@@ -350,6 +350,10 @@
     <string name="network_traffic_autohide">Auto hide</string>
     <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+    <string name="network_traffic_color_style">Color style</string>
+    <string name="network_traffic_color_reset">Reset color</string>
+    <string name="network_traffic_color_reset_message">Reset network traffic color to default?</string>
+    <string name="ok">OK</string>
 
     <!-- CM Lockscreen shortcuts -->
     <string name="lockscreen_targets_message">Bottom shortcuts</string>
@@ -404,5 +408,10 @@
     <string name="missed_call_breath_summary">Will give your missed call notifications a breathing effect in the statusbar</string>
     <string name="voicemail_breath_title">Breathing Voicemail</string>
     <string name="voicemail_breath_summary">Will give your voicemail notifications a breathing effect in the statusbar</string>
+
+    <!-- Statusbar Tesla logo -->
+    <string name="status_bar_tesla_logo_title">Tesla logo</string>
+    <string name="status_bar_tesla_logo_summary">Enable to show Tesla logo on the left side of statusbar</string>
+    <string name="status_bar_tesla_logo_color">Tesla logo color</string>
 
 </resources>
