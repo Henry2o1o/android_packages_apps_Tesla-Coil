@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Misc -->
-    <string name="reset">rücksetzen</string>
+    <string name="reset">zurücksetzen</string>
     <string name="default_string">Standard</string>
     <string name="positive_done">erledigt</string>
 
@@ -36,23 +36,23 @@
     <string name="system_animations_category">System Animationen</string>
 
     <!-- Toast Icons -->
-    <string name="toast_icon_title">Toast Icon</string>
-    <string name="toast_icon_summary">Appsymbol in der Toastanimation anzeigen</string>
+    <string name="toast_icon_title">Toast Symbol</string>
+    <string name="toast_icon_summary">App Symbol in der Toastanimation anzeigen</string>
 
     <!-- Battery options -->
     <string name="battery_title">Batterie</string>
     <string name="battery2_summary">Batterie Icon und Prozent anpassen</string>
-    <string name="status_bar_battery_style_title">Battery status style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon Portrait</string>
-    <string name="status_bar_battery_style_icon_landscape">Icon Landscape</string>
+    <string name="status_bar_battery_style_title">Batterie Status Stil</string>
+    <string name="status_bar_battery_style_icon_portrait">Symbol Portrait</string>
+    <string name="status_bar_battery_style_icon_landscape">Symbol Landscape</string>
     <string name="status_bar_battery_style_circle">Kreis</string>
     <string name="status_bar_battery_style_dotted_circle">gepunkteter Kreis</string>
     <string name="status_bar_battery_style_hidden">versteckt</string>
     <string name="status_bar_battery_percentage_title">Batterie Prozent anzeigen</string>
     <string name="status_bar_battery_percentage_dialog_title">Batterie Prozent</string>
     <string name="status_bar_battery_percentage_default">versteckt (Standard)</string>
-    <string name="status_bar_battery_percentage_text_inside">im Icon</string>
-    <string name="status_bar_battery_percentage_text_next">neben dem Icon</string>
+    <string name="status_bar_battery_percentage_text_inside">im Symbol</string>
+    <string name="status_bar_battery_percentage_text_next">neben dem Symbol</string>
 
     <!-- Status bar quick qs pulldown -->
     <string name="title_quick_pulldown">Quick Pulldown</string>
@@ -63,7 +63,7 @@
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_title">Helligkeits Schieber</string>
-    <string name="qs_brightness_slider_summary">Helligkeits Schieber im Quick Settings Panel anzeigen</string>
+    <string name="qs_brightness_slider_summary">Helligkeits Schieber im Schnelleinstellungsmenü anzeigen</string>
 
     <!-- Power Menu -->
     <string name="powermenu_airplane">Flugmodus</string>
@@ -71,12 +71,12 @@
     <string name="powermenu_lockdown">Sperren</string>
 
     <!-- Advanced reboot options -->
-    <string name="advanced_reboot_title">Advanced reboot</string>
-    <string name="advanced_reboot_summary">Include options in the power menu for rebooting into recovery and bootloader</string>
-    <string name="advanced_reboot_dialog_title">Advanced reboot menu</string>
-    <string name="advanced_reboot_disabled">Disable</string>
-    <string name="advanced_reboot_hide_on_keyguard">Hide on lock screen</string>
-    <string name="advanced_reboot_show_always">Show always</string>
+    <string name="advanced_reboot_title">Erweiterter Neustart</string>
+    <string name="advanced_reboot_summary">Enthält Neustart, Soft Neustart, Recovery, Bootloader</string>
+    <string name="advanced_reboot_dialog_title">Erweitertes Powermenü</string>
+    <string name="advanced_reboot_disabled">Deaktivieren</string>
+    <string name="advanced_reboot_hide_on_keyguard">Im Sperrbildschirm verstecken</string>
+    <string name="advanced_reboot_show_always">Immer anzeigen</string>
 
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_save">Speichern</string>
@@ -95,15 +95,15 @@
     <string name="expanded_user_configurable">Benutzer konfigurierbar</string>
 
     <!-- Force expanded notifications -->
-    <string name="force_expanded_notifications_title">Force Expanded Benachrichtigungen</string>
+    <string name="force_expanded_notifications_title">Erweiterte Benachrichtigungen erzwingen</string>
     <string name="force_expanded_notifications_summary">Nur für Anwendungen, die erweiterten Benachrichtigungen unterstützen</string>
 
     <!-- Disabling immersive mode messages -->
     <string name="disable_immersive_message_title">Deaktivieren Immersive-Mode-Meldungen</string>
-    <string name="disable_immersive_message_summary">This will hide all Immersive Mode Messages</string>
+    <string name="disable_immersive_message_summary">Dadurch werden alle Immersive-Mode Nachrichten verborgen</string>
 
     <!-- Disabling FC notifications -->
-    <string name="disable_fc_notifications_title">Diable FC Notifications</string>
+    <string name="disable_fc_notifications_title">Deaktiveren FC Benachrichtigungen</string>
     <string name="disable_fc_notifications_summary">Dadurch werden alle Immersive-Modus Nachrichten verborgen</string>
 
     <!-- Double tap to sleep -->
@@ -111,19 +111,19 @@
     <string name="double_tap_to_sleep_summary">Tippen Sie zweimal auf Statusleiste, um das Gerät in den Ruhezustand zu bringen</string>
     <string name="double_tap_sleep_nav_bar_title">DT2S auf Navbar</string>
     <string name="double_tap_sleep_nav_bar_summary">Tippen Sie zweimal Navigationsleiste, um das Gerät in den Ruhezustand zu bringen</string>
-    <string name="double_tap_to_sleep_lockscreen_title">DT2S auf Lockscreen</string>
+    <string name="double_tap_to_sleep_lockscreen_title">DT2S auf Sperrbidschirm</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Tippen Sie doppelt auf das obere Drittel oder unten Kontextbereich der Sperre Bildschirm, um das Gerät in den Ruhezustand zu bringen</string>
 
     <!-- Clock and date -->
     <string name="clock_styles_title">Uhr und Datum</string>  
-    <string name="clock_styles_summary">Uhr Style und Datumdformat anpassen</string>
+    <string name="clock_styles_summary">Uhrstil und Datumformat anpassen</string>
     <string name="clock_title_enable">Ausrichtung</string>
     <string name="clock_enabled">aktiviert</string>
     <string name="clock_disabled">deaktiviert</string>
     <string name="clock_color_title">Farbe</string>
     <string name="status_bar_clock_style_reset">Farbe zurücksetzen</string>
     <string name="status_bar_show_clock_title">Uhr und Datum anzeigen</string>
-    <string name="status_bar_am_pm_info">24-Hour Uhr ist aktiviert</string>
+    <string name="status_bar_am_pm_info">24h Uhr ist aktiviert</string>
     <string name="enable_clock_weekday">Wochentag</string>
     <string name="enable_clock_weekday_summary">Abgekürzt Wochentag vor der Zeit</string>
     <string name="right_clock">Uhr rechts</string>
@@ -155,26 +155,26 @@
     <string name="recents_searchbar_title">Suchleiste</string>
     <string name="recents_searchbar_summary">Google Suchleiste in Recents anzeigen</string>
     <!-- Recents panel settings -->
-    <string name="show_clear_all_recents_button_summary">Clear all Button in Recents anzeigen</string>
-    <string name="recents_clear_all_location_title">Clear all Recents Ort</string>
+    <string name="show_clear_all_recents_button_summary">Alles löschen Button in Recents anzeigen</string>
+    <string name="recents_clear_all_location_title">Alles löschen Recents Ort</string>
     <string name="recents_clear_all_location_top_right">Oben rechts</string>
     <string name="recents_clear_all_location_top_left">Oben links</string>
     <string name="recents_clear_all_location_top_center">Oben mitte</string>
     <string name="recents_clear_all_location_bottom_right">Unten rechts</string>
     <string name="recents_clear_all_location_bottom_left">Unten links</string>
     <string name="recents_clear_all_location_bottom_center">Unten mitte</string>
-    <string name="recents_show_membar_title">Memory Bar</string>
-    <string name="recents_show_membar_summary">Zeige eine Bar mit verfügbaren Speicherplatz im Gerät</string>
+    <string name="recents_show_membar_title">Speicheranzeige</string>
+    <string name="recents_show_membar_summary">Zeige einen Balken mit verfügbaren Speicherplatz im Gerät</string>
 
     <!-- Lock screen settings -->
-    <string name="lockscreen_settings_title">Lockscreen Wallpaper</string>
-    <string name="lockscreen_wallpaper_set_title">Set Lockscreen Wallpaper</string>
-    <string name="lockscreen_wallpaper_clear_title">Clear Lockscreen Wallpaper</string>
+    <string name="lockscreen_settings_title">Sperrbildschirm Hintergrund</string>
+    <string name="lockscreen_wallpaper_set_title">Set Sperrbildschirm Hintergrund</string>
+    <string name="lockscreen_wallpaper_clear_title">Sperrbildschirm Hintergrund festlegen</string>
 
     <!-- Density -->
     <string name="display_category">Display Optionen</string>
-    <string name="lcd_density">LCD Density</string>
-    <string name="dialog_title_lcd_density">LCD Density</string>
+    <string name="lcd_density">LCD Dichte</string>
+    <string name="dialog_title_lcd_density">LCD Dichte</string>
     <string name="lcd_density_default_value_format">%d DPI (Standard)</string>
     <string name="restarting_ui">Neustart UI\u2026</string>
 
@@ -195,14 +195,14 @@
     <string name="navbar_dimen_title">Größe</string>
     <string name="navbar_dimensions_reset_message">Alle Einträge auf Standard zurücksetzen?</string>
     <string name="navigation_bar_height_title">Navigationsbar Höhe</string>
-    <string name="navigation_bar_height_landscape_title">Navigationsbar Höhe landscape</string>
+    <string name="navigation_bar_height_landscape_title">Navigationsbar Höhe im Querformat</string>
     <string name="navigation_bar_width_title">Navigationsbar Breite</string>
 
     <!--Weather Settings -->
     <!-- Weather in status bar -->
     <string name="weather_settings_title">Wetter</string>
     <string name="status_bar_show_weather_title">Wetter anzeigen</string>
-    <string name="status_bar_show_weather_summary">Wetter im Statusbar Kopf anzeigen</string>
+    <string name="status_bar_show_weather_summary">Wetter in der Statusleiste anzeigen</string>
     <!-- Lockscreen weather -->
     <string name="lockscreen_weather_title">Wetter</string>
     <string name="lock_screen_weather_settings_title">Wetter Optionen</string>
@@ -296,7 +296,7 @@
     <string name="navigation_bar_buttons">Button &amp; Layout</string>
     <string name="navigation_bar_settings_summary">Bearbeiten und neu ordnen der Navigationsleisten -Schaltflächen</string>
     <string name="navigation_bar_help_text">Tippen Sie auf das Bearbeitungssymbol, um die Navigationsleiste zur Bearbeitung freizuschalten.\n\nSie können ein Symbol tippen, um das Kontext ändern oder langes Drücken auf ein Symbol, um es neu zu ordnen.\n\nTippen Sie auf Speichern, um Ihre Änderungen zu übernehmen, oder Wiederherstellung, um das Layout auf die Standardeinstellungen zurückzusetzen.</string>
-    <string name="navigation_restore_button_text">Restore\nStandard</string>
+    <string name="navigation_restore_button_text">Wiederherstellen\nStandard</string>
     <string name="navigation_edit_button_text">Bearbeiten</string>
     <string name="navigation_save_button_text">Sichern</string>
     <string name="navigation_bar_reset_message">Löschen Sie die aktuellen Einstellungen und Wiederherstellung des Standard-Layout?</string>
@@ -306,7 +306,7 @@
     <string name="navigation_bar_arrow_keys_summary">Display links und rechts Pfeiltasten, während Sie tippen. Überschreibt IME Switcher.</string>
 
     <!-- Kill app long-press back -->
-    <string name="kill_app_longpress_back">Kill App back Button</string>
+    <string name="kill_app_longpress_back">App beenden zurück Button</string>
     <string name="kill_app_longpress_back_summary">Beendet die Vordergrund App durch langes Drücken der Zurück-Taste</string>
 
     <!-- OmniSwitch -->
